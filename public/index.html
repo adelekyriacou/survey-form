@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Adam Driver Fan Club Survey</title>
+    <link rel="stylesheet" href="/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 id="title">The Adam Driver fan club survey</h1>
+      </header>
+
+      <p id="description"><em>Blast that piece of junk out of the sky!</em></p>
+
+      <div id="survey-container">
+        <form id="survey-form">
+          <div class="form-group">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" name="name" placeholder="e.g. Adam Driver" class="form-control"required></input>
+          </div>
+
+          <div class="form-group">
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" name="email" placeholder="e.g. kylo@snack.com" class="form-control" required></input>
+          </div>
+
+          <div class="form-group">
+            <label for="number" id="number-label">Age</label>
+            <input type="number" id="number" name="number" min="18" max="99" placeholder="e.g. 36" class="form-control">
+          </div>
+
+          <div class="form-group">
+            <p class="survey-p">Pick your favourite Adam Driver appearance</p>
+
+            <select id="dropdown" name="faveappearance" class="form-control">
+              <option disabled selected value>Select your favourite of my favourites</option>
+              <option value="Frances Ha">Frances Ha</option>
+              <option value="While We're Young">While We're Young</option>
+              <option value="Star Wars: The Force Awakens">Star Wars: The Force Awakens</option>
+              <option value="Paterson">Paterson</option>
+              <option value="Silence">Silence</option>
+              <option value="Star Wars: The Last Jedi">Star Wars: The Last Jedi</option>
+              <option value="BlacKkKlansman">BlacKkKlansman</option>
+              <option value="Marriage Story">Marriage Story</option>
+              <option value="Star Wars: The Rise of Skywalker">Star Wars: The Rise of Skywalker</option>
+              <option value="SNL skit">That time he did that intern skit on SNL</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <p class="survey-p">Which part of him would you most like to keep in a jar?</p>
+
+            <label>
+            <input type="radio" value="hair" name="bodypart" class="input-radio" checked>Hair
+            </label>
+
+            <label>
+            <input type="radio" value="voice" name="bodypart" class="input-radio" checked>Voice
+            </label>
+
+            <label>
+            <input type="radio" value="ears" name="bodypart" class="input-radio" checked>Ears
+            </label>
+          </div>
+
+          <div class="form-group">
+            <p class="survey-p">What would you pay a fiver for to see him do? <span class="clue"> (Check all that apply)</span></p>
+
+                <label>
+                <input type="checkbox" value="sex1" name="bodypart" class="input-radio">Make sex
+                </label>
+
+                <label>
+                <input type="checkbox" value="sex2" name="bodypart" class="input-radio">Make sex
+                </label>
+
+                <label>
+                <input type="checkbox" value="sex3" name="bodypart" class="input-radio">Make sex
+                </label>
+              </div>
+
+              <div class=form-group>
+                <p class="survey-p">Now, last task. Write a haiku about Adam</p>
+                <textarea id="comments" class="input-textarea" name"haiku" placeholder="Make it good..."></textarea>
+              </div>
+
+              <div class ="form-group">
+                <button type="sumbit" id="submit" class="submit-button">Submit</button>
+              </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>

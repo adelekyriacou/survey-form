@@ -1,0 +1,129 @@
+:root {
+  --form-teal: rgb(0,128,128,0.2);
+  --form-darker-teal: rgb(21,68,68);
+  --form-darkest-teal: rgb(12,38,38);
+  --form-accent: rgb(30,98,98);
+}
+
+body {
+  font-family: "Helvetica Neue", san-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0.75rem;
+}
+
+#title {
+    font-size: 2.85rem;
+    color: var(--form-darkest-teal);
+    text-transform: capitalize;
+    padding: 1rem 0;
+    line-height: 1.22;
+    text-align: center;
+}
+
+#description {
+  font-family: 'Georgia', serif;
+  padding-bottom: 0.5rem;
+  color: var(--form-accent);
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.clue {
+  font-size: 0.8rem;
+  margin-left: 0.25rem;
+}
+
+#survey-container {
+ max-width: 46rem;
+ margin: 0 auto;
+}
+
+#survey-form {
+  padding: 2.5rem;
+  background-color: var(--form-teal);
+  border-radius: 0.25rem;
+}
+
+.form-group {
+  padding: 0.25rem;
+  margin: 0 auto 1.25rem auto;
+}
+
+.form-group:last-of-type  {
+  margin-bottom: 0;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--form-darkest-teal);
+}
+
+.survey-p {
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--form-darkest-teal);
+}
+
+.survey-p {
+ padding-bottom: 0.5rem;
+ margin: 0;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  padding: 0.33rem 0.66rem;
+  font-size: 1rem;
+  color: var(--form-darker-teal);
+  background-color: #fff;
+  border: 1px solid var(--form-accent);
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+
+}
+
+::placeholder {
+  color: var(--form-darker-teal);
+  opacity: 1;
+  font-size: 1rem;
+  color: var(--form-darker-teal);
+}
+
+.input-radio {
+  display: inline-block;
+  margin-right: 0.5rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #fff;
+  border: 1px solid var(--form-accent);
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  padding: 0.33rem 0.5rem;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  font-size: 1.25rem;
+  padding: 0.75rem;
+  border: none;
+  color: #fff;
+  background-color: var(--form-darkest-teal);
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  cursor: pointer;
+}
